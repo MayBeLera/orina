@@ -1,0 +1,887 @@
+@media (max-width:430px) {
+
+   .header-btn2-mobile{
+        display: block;
+   }
+
+    .len{
+        margin-left: 6px;
+        border-radius: 10px;
+        padding: 6px 10px;
+border: 1px solid rgba(28, 119, 239, 1);
+    }
+
+    .nav__logo{
+        max-width: 126px;
+        height: 36px;
+    }
+
+    * img{
+     max-width: 100%;
+    }
+
+    .nav__list{
+        display: none;
+    }
+
+
+
+    .burger {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 101;
+    
+}
+
+.gey{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.burger span {
+    display: block;
+    height: 3px;
+    background-color: rgba(28, 119, 239, 1);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.header__btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-btn{
+    background-color: black;
+    padding: 10px 70px;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+/* Крестик */
+.burger.active span:nth-child(1) {
+    transform: rotate(50deg) translate(5px, 5px);
+}
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+.burger.active span:nth-child(3) {
+    transform: rotate(-40deg) translate(5px, -5px);
+}
+
+.nav__list-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.nav__list-mobile.active {
+    display: flex;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ margin-left: 104px;
+}
+
+.header-btn2-mobile {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Прячем остальные кнопки */
+.header-btn1,
+.header-btn2 {
+    display: none;
+}
+
+.header__text h1{
+    font-size: 34px;
+    max-width: 324px;
+}
+
+.header__text{
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__text p{
+    font-size: 15px;
+    max-width: 324px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.header__content{
+    display: none;
+}
+
+.header__content-mobile{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__text button{
+    max-width: 232px;
+    min-height: 46px;
+    padding: 0;
+    font-size: 15px;
+}
+
+.header__text button:hover{
+    max-width: 232px;
+}
+
+.mobe{
+    display: block;
+    position: absolute; left: 0; top: -200px;
+}
+
+
+
+.cg{
+    max-width: 348px;
+    min-height: 280px;
+    margin-bottom: 27px;
+}
+
+.connect h2{
+    font-size: 26px;
+    margin-top: 70px;
+}
+
+.connect-item{
+    display: flex;
+    position: relative;
+    max-height: 222px;
+    flex-direction: column;
+}
+
+.connect-item svg{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.connect-item h3{
+    font-size: 22px;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.connect-item p{
+    font-size: 15px;
+    max-width: 276px;
+}
+
+.connect-item-item{
+    margin-top: 15px;
+    max-height: 100px;
+}
+
+.con{
+    position: absolute;
+    bottom: -135px;
+    right: 3px;
+    display: block;
+}
+
+.carousel-wrapper{
+    width: 260px;
+    height: 150px;
+}
+
+.connect{
+    position: relative;
+}
+
+.connect-item-item p{
+    font-size: 15px;
+    max-width: 276px;
+}
+
+.oper h2{
+    font-size: 26px;
+    max-width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.oper-cards-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.oper-cards-item{
+    max-width: 380px;
+    max-height: 300px;
+}
+
+.oper-cards-item h3{
+    font-size: 18px;
+    max-width: 268px;
+    text-align: center;
+    margin: auto;
+    margin-top: 24px;
+    min-height: 300px;
+}
+
+.oper-content-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    min-height: 360px;
+}
+
+.oper-content-card h3{
+    font-size: 18px;
+
+}
+
+.abid{
+    position: absolute; 
+    z-index: -1; 
+    bottom: -180px;
+    display: block;
+}
+
+.diba{
+    display: none;
+}
+
+.oper-content-card p{
+    font-size: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn{
+    display: none;
+}
+
+.dot.active {
+  background-color: #007bff; 
+}
+
+.scroll h2{
+    font-size: 26px;
+    max-width: 324px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.scroll p{
+    margin: 0 auto;
+    font-size: 15px;
+    max-width: 324px;
+}
+
+.scroll-img{
+    display: none;
+}
+
+.ability{
+    margin-bottom: 10px;
+    padding: 0px 1dvh;
+}
+
+.ability-title{
+    font-size: 26px;
+    margin-left: 0;
+    padding-top: 50px;
+    max-width: 200px;
+}
+
+.ability-content{
+    gap: 50px;
+}
+
+.ability-img{
+    display: none;
+}
+
+
+
+.mobel{
+    display: block;
+    position: absolute; top: -200px; right:0;
+}
+
+.ability-mobile{
+    display: block;
+    top: 0; right: 0; position: absolute;
+}
+
+.ability-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.ability-firstcontent-item-text h4{
+    font-size: 18px;
+}
+
+.ability-firstcontent-item-text p{
+    font-size: 15px;
+}
+
+.icon{
+    width: 52px;
+    height: 99px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.icon svg{
+    width: 25px;
+    height: 25px;
+}
+
+    .section_helper_title {
+        font-size: 26px;
+        line-height: 96%;
+    }
+
+    .section_helper_subtitle {
+        font-size: 15px;
+        max-width: 316px;
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+
+    .section_helper_cards {
+        flex-direction: column;
+    }
+
+    .card_two {
+        border: none;
+    }
+
+    .card_two .section_helper_card_info {
+        margin-top: 0;
+    }
+
+    .section_helper_card {
+        min-height: 0;
+        height: max-content;
+    }
+
+    .section_helper_card_info p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .section_helper_card_info span {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .section_helper_card_info {
+        align-items: center;
+    }
+
+    .section_helper_cards {
+        margin-top: 24px;
+    }
+
+    .test_block {
+        flex-direction: column;
+        padding: 12px 12px 24px 12px;
+        margin-top: 15px;
+    }
+
+    .test_left {
+        max-width: 100%;
+        min-height: 48px;
+    }
+
+    .test_right {
+        align-items: center;
+    }
+
+    .test_right p {
+        text-align: center;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .test_right button {
+        max-width: 100%;
+    }
+
+    .ask_content_side {
+        flex-direction: column;
+    }
+
+    .ask_content_title {
+        font-size: 26px;
+        line-height: 96%;
+        text-align: center;
+    }
+
+    .ask_block p {
+        font-size: 18px;
+    }
+
+    .response_top span {
+        font-size: 18px;
+    }
+
+    .response p {
+        font-size: 15px;
+    }
+
+    .mob{
+    display: block;
+}
+
+.compe{
+    display: none;
+}
+
+    .ask_item.active .response {
+        padding: 20px;
+    }
+
+    .ask_item{
+        padding: 0px 18px;
+    }
+
+    .comp{
+    display: block;
+}
+
+    .ask_form {
+        padding: 24px;
+        min-height: 455px;
+        margin: 0 18px;
+    }
+
+.rate_indicators{
+    bottom: 350px;
+    display: block;
+}
+
+.rate_card{
+    margin-bottom: 60px;
+}
+
+.comp{
+    display: none;
+}
+
+.rate{
+    position: relative;
+}
+
+.nav__content-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.nav__content{
+    display: none;
+}
+
+.footer-num{
+font-family: 'TT Norms';
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.suh{
+    margin-left: 18px;
+}
+
+    .response {
+        padding: 0 20px;
+    }
+
+    .form_field {
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .ask_form_content_title {
+        max-width: 276px;
+        font-size: 22px;
+    }
+
+    .ask_form_content_descr {
+        font-size: 15px;
+        margin-top: 8px;
+        max-width: 276px;
+        margin-bottom: 20px;
+    }
+
+    .form_field input {
+        padding: 13px 16px 15px 16px;
+    }
+
+    .form_field button {
+        padding: 13px 30px 15px 30px;
+        min-height: 46px;
+    }
+
+    .form_field button span {
+        font-size: 15px;
+    }
+
+    .form_privacy {
+        font-size: 13px;
+        max-width: 276px;
+    }
+
+    .ask_form_content {
+        height: 100%;
+    }
+
+    .section_helper {
+        margin-top: 100px;
+    }
+
+    .rate {
+        margin-top: 100px;
+    }
+
+    .ask {
+        margin-top: 100px;
+    }
+
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .rate_card_content_line p {
+        font-size: 15px;
+    }
+
+    .rate_card_content_line span {
+        font-size: 15px;
+    }
+
+    .rate_card_content_btn span {
+        font-size: 15px;
+    }
+
+    .rate_card_content_price {
+        font-size: 34px;
+    }
+
+    .rate_card_content_title {
+        font-size: 26px;
+    }
+
+    .rate_card_content_title img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .rate_title {
+        font-size: 26px;
+    }
+
+    .rate_cards {
+        gap: 12px;
+        padding: 0 8px 12px;
+    }
+
+    .rate_card {
+        flex: 0 0 95%;
+    }
+
+    .rate_indicators {
+        gap: 6px;
+    }
+
+    .scroll-indicators {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    font-family: var(--font-family);
+}
+
+.indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    transition: background .3s;
+    font-family: var(--font-family);
+}
+
+.indicator-dot.active {
+    background: var(--blue);
+    font-family: var(--font-family);
+}
+
+    .rate_indicators {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    font-family: var(--font-family);
+}
+
+.rate_indicators .indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    transition: background .3s;
+    font-family: var(--font-family);
+}
+
+.rate_indicators .indicator-dot.active {
+    background: var(--blue);
+    font-family: var(--font-family);
+}
+
+    .rate_indicators .indicator-dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .group_20 {
+        position: absolute;
+        right: 0;
+        top: -150px;
+        display: block;
+    }
+
+    .footer_links{
+        margin-left: 18px;
+        margin-top: 40px;
+    }
+
+    .group_202{
+        display: none;
+    }
+
+    .rate_options {
+        display: flex;
+        /* включаем флекс для кнопок в ряд */
+        flex-wrap: nowrap;
+        /* чтобы не переносились */
+        overflow-x: auto;
+        /* горизонтальный скролл */
+        -webkit-overflow-scrolling: touch;
+        /* плавный скролл на iOS */
+        scroll-snap-type: x mandatory;
+        /* «прилипание» к кнопкам (опционально) */
+        gap: 15px;
+        /* твой отступ между кнопками */
+        padding: 0 16px;
+        /* отступы слева‑справа, чтоб часть была «за стенкой» */
+        margin: 0;
+        /* убираем авто‑центрирование */
+        max-width: none;
+        /* отменяем прежний max-width */
+        margin: 14px 0;
+    }
+
+    /* прячем стандартный скроллбар */
+    .rate_options::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* чтобы кнопки «прилипали» при скролле (опционально) */
+    .rate_option {
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+    }
+
+
+    .aihelp_grid {
+        padding: 8px 20px;
+    }
+
+    .aihelp_grid_item {
+        flex: 0 0 95%;
+
+    }
+
+    .aihelp_grid_item_cards {
+        padding: 4px 0;
+    }
+    .aihelp-img{
+        display: none;
+    }
+
+    .jop{
+    display: none;
+}
+
+.ask-mob{
+    display: block;
+}
+
+.ability-mobiles{
+    display: block;
+}
+
+.header__text button{
+    max-width: 232px;
+}
+
+    .aihelp_title {
+        font-size: 26px;
+        max-width: 289px;
+        text-align: left;
+        margin-left: 18px;
+        margin-top: 100px;
+    }
+
+    .aihelp_grid_item_info_title {
+        font-size: 18px;
+    }
+
+    .aihelp_grid_item_info_descr {
+        font-size: 15px;
+    }
+
+    .aihelp_grid_item_message_ai_text,
+    .aihelp_grid_item_message_client_text,
+    .aihelp_grid_item_message_rec_descr {
+        font-size: 8px;
+    }
+
+    .aihelp_grid_item_message_ai_top_text,
+    .aihelp_grid_item_message_ai_top span,
+    .aihelp_grid_item_message_rec_av,
+    .aihelp_grid_item_message_rec span,
+    .aihelp_grid_item_message_client_top_text,
+    .aihelp_grid_item_message_client_top span {
+        font-size: 7px;
+    }
+
+    .aihelp_grid_item_card {
+        flex: 0 0 90%;
+    }
+
+    .aihelp_grid_item_cards {
+        display: block;
+        overflow-x: visible;
+        scroll-snap-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .aihelp_grid_item_card {
+        flex: none;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .footer {
+        min-height: 530px;
+        height: 100%;
+        padding-top: 50px;
+    }
+
+    .footer_content {
+        flex-direction: column;
+        gap: 30px;
+        height: 100%;
+        min-height: 450px;
+    }
+
+    .footer__logo {
+        width: 200px;
+        height: 56px;
+        gap: 15px;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer_email {
+        font-size: 22px;
+    }
+
+    /* .mob{
+        display: none;
+    } */
+
+    .footer_support-mob{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    }
+
+    .footer_support span {
+        font-size: 18px;
+    }
+
+    .footer_privacy{
+        align-self: flex-start;
+    }
+
+    .footer_support{
+        display: none;
+    }
+
+    .group_14{
+        display: none;
+    }
+
+}
